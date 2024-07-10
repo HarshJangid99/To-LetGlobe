@@ -1,0 +1,109 @@
+
+.contact-container {
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: space-around;
+    align-items: center;
+    padding: 50px;
+}
+
+.contact-info {
+    max-width: 400px;
+    flex: 1 1 100%;
+    text-align: start;
+}
+
+.contact-info > h1:first-child {
+    color: #6cc1b6;
+    margin-bottom: 22px;
+}
+.contact-details{
+    padding-top: 30px;
+}
+.about p {
+    font-size: 17px;
+    color: #b3b0b0;
+}
+.logo img{
+    width : 38px;
+}
+.chat , .call{
+    display: flex;
+    align-items: baseline;
+}
+.chattext{
+    margin-left: 20px;
+}
+.chattext h4{
+    color: white;
+}
+.links{
+    color: #6cc1b6;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.links p{
+    color:#6cc1b6;
+}
+.contact-form {
+    background-color: #000000;
+    padding: 40px; 
+    border-radius: 15px;
+    max-width: 600px; 
+    flex: 1 1 100%; 
+}
+
+.contact-form label {
+    display: flex;
+    justify-content: start;
+    color: #848887 !important;
+    font-size: 18px;
+    padding-bottom: 5px;
+}
+
+.contact-form input,
+.contact-form select,
+.contact-form textarea {
+    display: block;
+    width: 100%; 
+    margin-bottom: 10px;
+    padding: 15px; 
+    border-radius: 5px;
+    border: none;
+    font-size: 16px; 
+    background-color: #000000;
+    border: 1px solid #b3b0b0;
+    color: white;
+}
+
+.contact-form button {
+    background-color: #6cc1b6;
+    color: #000;
+    padding: 15px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px; 
+    width: 100%;
+}
+
+.contact-form button:hover {
+    background-color: #009ebf;
+}
+
+
+@media (max-width: 768px) {
+    
+    .contact-container {
+        padding: 20px;
+    }
+
+    .contact-form {
+        padding: 20px;
+    }
+}
+
+@media (max-width: 480px) {
+    .contact-form button {
+        width: 100%; /* Button takes full width on small screens */
+    }
+}

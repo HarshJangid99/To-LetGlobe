@@ -1,0 +1,22 @@
+.footercontainer{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 38px;
+}
+.title{
+    color: grey;
+}
+.address , .phone , .email ,p{
+    color: white;
+    font-size: 12px;
+}
+.address , .phone , .email , p:hover{
+    color: #6cc1b6
+   
+}
+@media screen and (max-width: 620px) {
+    .footercontainer{
+        flex-direction: column;
+    }
+}

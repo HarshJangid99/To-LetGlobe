@@ -1,0 +1,17 @@
+#navbarNav{
+    justify-content: end;
+}
+.nav{
+    background-color: rgb(0, 0, 0);
+    border-bottom: 1px solid grey;
+}
+.nav-link{
+    color: whitesmoke !important;
+}
+.nav-link:hover{
+    color: yellow !important;
+}
+
+.nav-item{
+    margin: 0 20px;
+}
